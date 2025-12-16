@@ -12,6 +12,8 @@ a {
     color : #2c2c2c;
 }
 
+/* --------header---------- */
+
 header {
     background: #9fd9fd;
     width: 100%;
@@ -30,18 +32,30 @@ header ul.menu {
     position: absolute;
     text-align: center;
     display: flex;
-    top: 50%;
+    top: 15px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     justify-content: space-between;
     font-size: 20px;
     font-weight: 700;
 }
 header .login {
     position: absolute;
-    right: 10%;
-    top: 15px;
+    right: 5%;
+    top: 18px;
     height: 40px;
+}
+header .login > a {
+    display : flex;
+    gap : 10px;
+}
+header .login > a > img {
+    width: 16px;
+    height: 16px;
+    margin-top: 3px;
+}
+header .login > a > p {
+    font-size: 14px;
 }
 header .burger {
     position: absolute;
@@ -57,3 +71,4 @@ header .burger > a > span {
     display : block;
     margin : 6px 0;
 }
+/* --------------------------- */
