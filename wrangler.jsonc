@@ -1,6 +1,6 @@
 {
   // Cloudflare Wrangler config for deploying static assets
-  "name": "test-assets",
+  "name": "test",
   "compatibility_date": "2025-12-16",
   "assets": {
     "directory": "./dist"
