@@ -116,11 +116,16 @@ header .burger > a > span {
     height: 70%;
     background: #f5f5f5 url('../images/secondscreen.png') no-repeat center / cover;
     display: flex;
-}
-.main > .secondscreen > .calender {
     position: relative;
 }
+.main > .secondscreen > .calender {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
 .main > .secondscreen > .calender > img {
+    height: 550px;
     border-radius: 40px;
 }
 .main > .secondscreen > .calender > a {
@@ -151,5 +156,24 @@ header .burger > a > span {
     text-align: center;
     font-weight: 800;
     line-height: 30px;
+}
+.main > .secondscreen > .challenge {
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    transform: translateY(-50%);
+}
+.main > .secondscreen > .challenge > .challenge-content {
+    position: relative;
+}
+.main > .secondscreen > .challenge > .challenge-content > img {
+    height: 500px;
+    width: 550px;
+}
+.main > .secondscreen > .challenge > .challenge-content > .challenge-text {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 300px;
 }
 /* --------------------------- */
