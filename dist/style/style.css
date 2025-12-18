@@ -20,12 +20,18 @@ header {
     height: 61px;
     position: relative;
 }
-header .logo {
+/* header .logo {
     position: absolute;
     left: 5%;
     top: 15px;
     width: 156px;
     height: 40px;
+} */
+header .logo > a > img {
+    position: absolute;
+    left: 3%;
+    top: 5px;
+    width: 156px;
 }
 header ul.menu {
     width: 50%;
@@ -70,5 +76,37 @@ header .burger > a > span {
     background : #2c2c2c;
     display : block;
     margin : 6px 0;
+}
+/* --------------------------- */
+
+/* --------main---------- */
+.main {
+    width: 100%;
+    height: calc(100vh - 61px);
+}
+.main > .firstscreen{
+    height: 100%;
+    background: #454545 url('../images/mainscreen.png') no-repeat center / cover;
+    position: relative;
+}
+.main > .firstscreen > .mainlogo_text {
+    position: absolute;
+    top: 40%;
+    left: 100px;
+    transform: translateY(-40%);
+}
+.main > .firstscreen > .mainlogo_text > img {
+    width: 550px;
+}
+.main > .firstscreen > .mainlogo_text > h3 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 24px;
+}
+.main > .firstscreen > p {
+    position: absolute;
+    bottom: 50px;
+    left: 120px;
+    font-size: 14px;
 }
 /* --------------------------- */
